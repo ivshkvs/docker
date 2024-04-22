@@ -3,7 +3,7 @@ services:
 
  apache:
 
-  build: ./ubuntu
+  build: ./ubuntu_apache
   ports:
      - 1111:80 
   volumes:
@@ -14,7 +14,7 @@ services:
 
  nginx:
 
-  build: ./centos
+  build: ./centos_nginx
   ports:
      - 2222:80
   volumes:
